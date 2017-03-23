@@ -1,13 +1,114 @@
+@font-face {
+    font-family: "CandyPop";
+    src: url('fonts/Candy_Pop!-demo-font.ttf') format('truetype');
+    /* IE9 Compat Modes */
+    src: url('fonts/Candy_Pop!-demo-font.ttf') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/Candy_Pop!-demo-font.ttf') format('woff2'), /* Super Modern Browsers */
+    url('fonts/Candy_Pop!-demo-font.ttf') format('woff'), /* Pretty Modern Browsers */
+    url('fonts/Candy_Pop!-demo-font.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/Candy_Pop!-demo-font.ttf') format('svg');
+    /* Legacy iOS */
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "CandyPop", fantasy, sans-serif;
+    background-image: radial-gradient(green, yellow);
 }
 
 main {
     padding: 5px;
 }
 
+main p {
+    margin-bottom: 40px;
+}
+
+a {
+    color: darkblue;
+    font-weight: bold;
+}
+
+div {
+    height: 620px;
+}
+
 footer {
     padding: 15px 5px;
     font-size: 0.8em;
     color: #666666;
+    clear: both;
+    position: inherit;
+    margin-top: 10em;
+    color: black;
+}
+
+.footLine {
+    line-height: 2em;
+    background-color: lightgray;
+}
+
+#fig1 {
+    border: 1px solid #000000;
+    width: 250px;
+    padding: 15px;
+    transform: rotate(6deg);
+    margin: 3em 20px 3em 20px;
+}
+
+figcaption {
+    font-size: 130%;
+    height: 1.5em;
+}
+
+#hoverFont:hover {
+    font-size: 120%;
+}
+
+#gallery {
+    position: relative;
+}
+
+#fig2 {
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    left: 310px;
+    text-align: center;
+    opacity: .25;
+}
+
+
+/*fig2 applied to div*/
+
+#gallery ul {
+    float: right;
+    display: inline;
+    width: 300px;
+    list-style: none;
+}
+
+#gallery img {
+    border: none;
+}
+
+#gallery a {
+    text-decoration: none;
+}
+
+#gallery span {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#gallery a:hover span {
+    position: absolute;
+    top: 0px;
+    left: 310px;
+    opacity: 1;
+}
+
+.marginBottom {
+    margin-bottom: 5em;
 }
