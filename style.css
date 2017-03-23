@@ -1,17 +1,16 @@
 @font-face {
     font-family: "CandyPop";
-    src: url('/fonts/Candy_Pop!-demo-font.ttf') format('truetype');
+    src: url('fonts/Candy_Pop!-demo-font.ttf') format('truetype');
     /* IE9 Compat Modes */
-    src: url('/fonts/Candy_Pop!-demo-font.ttf') format('embedded-opentype'), /* IE6-IE8 */
-    url('/fonts/Candy_Pop!-demo-font.ttf') format('woff2'), /* Super Modern Browsers */
-    url('/fonts/Candy_Pop!-demo-font.ttf') format('woff'), /* Pretty Modern Browsers */
-    url('/fonts/Candy_Pop!-demo-font.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('/fonts/Candy_Pop!-demo-font.ttf') format('svg');
+    src: url('fonts/Candy_Pop!-demo-font.ttf') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/Candy_Pop!-demo-font.ttf') format('woff2'), /* Super Modern Browsers */
+    url('fonts/Candy_Pop!-demo-font.ttf') format('woff'), /* Pretty Modern Browsers */
+    url('fonts/Candy_Pop!-demo-font.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/Candy_Pop!-demo-font.ttf') format('svg');
     /* Legacy iOS */
 }
 
 body {
-    /*font-family: Arial, sans-serif;*/
     font-family: "CandyPop", fantasy, sans-serif;
     background-image: radial-gradient(green, yellow);
 }
@@ -104,6 +103,7 @@ figcaption {
     left: 310px;
     opacity: 1;
 }
-.marginBottom{
+
+.marginBottom {
     margin-bottom: 5em;
 }
