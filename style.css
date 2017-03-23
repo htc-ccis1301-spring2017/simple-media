@@ -23,6 +23,11 @@ main p {
     margin-bottom: 40px;
 }
 
+a {
+    color: darkblue;
+    font-weight: bold;
+}
+
 div {
     height: 620px;
 }
