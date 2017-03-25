@@ -1,5 +1,12 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: myFirstFont;
+    background-color: #333333;
+    color: #EAEAEA;
 }
 
 main {
@@ -10,4 +17,78 @@ footer {
     padding: 15px 5px;
     font-size: 0.8em;
     color: #666666;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: antiquewhite;
+}
+
+a:visited {
+    color: burlywood;
+}
+
+a:hover {
+    color: coral;
+}
+
+a:active {
+    color: chocolate;
+}
+
+img {
+    margin: 2%;
+    padding: 2%;
+}
+
+.shift {
+    float: right;
+    margin: 10px;
+    background-color: #FFF;
+    padding: 5px;
+    border: 1px solid #CCC;
+    box-shadow: 5px 5px 5px #828282;
+    transform: rotate(3deg);
+}
+
+.trans {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #EAEAEA;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.trans:hover {
+    background-color: firebrick;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+    font-size: 50px;
+}
+
+#gallery {
+    position: relative;
+}
+
+#gallery ul {
+    width: 300px;
+    list-style-type: none;
+}
+
+#gallery li {
+    display: inline;
+    padding: 10px;
+}
+
+figure {
+    position: absolute;
+    left: 280px;
+    text-align: center;
+    opacity: .50;
 }
