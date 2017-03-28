@@ -1,5 +1,7 @@
 body {
     font-family: Arial, sans-serif;
+    color: black;
+    background-color: burlywood;
 }
 
 main {
@@ -11,3 +13,19 @@ footer {
     font-size: 0.8em;
     color: #666666;
 }
+figure {float: right;
+margin: 10px;
+padding: 5px;
+transform: rotate(5deg);
+    transform: scalescale(100px 100px)}
+#gallery {position: relative;
+
+}
+li {width: 300px;
+display: inline;
+float: left;
+padding: 10px}
+span {position: absolute;
+left: -1000px; opacity: 0;
+transition: opaxity 3s ease-in-out;}
+#gallery a:hover span {position: absolute; top: 16px; left: 32opx; text-align: center; opacity: 1;}
