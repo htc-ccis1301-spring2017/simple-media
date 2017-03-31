@@ -1,10 +1,14 @@
 @font-face {
-font-family: bonbon;
-src: url('https://fonts.googleapis.com/css?family=Bonbon');
-
+  font-family: 'Bonbon';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bonbon'), local('Bonbon-Regular'), url(https://fonts.gstatic.com/s/bonbon/v7/9Y-vWjaZMFbrz3brizYoHQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
+
 body {
     font-family: 'Bonbon', cursive;
+background-color: #3399cc;
 }
 
 main {
@@ -50,23 +54,39 @@ max-width: 200px;
 footer {
     padding: 15px 5px;
     font-size: 0.8em;
-    color: #666666;
+    color: #000000;
 }
 
-#video { }
-#iframe { }
-#polaroid { }
-#slide { }
+
+#video {
+background-color: #666666;
+padding-top: 20px;
 }
+#video video {
+border: 2px solid #000000; 
+transform: rotate(-6deg)
+}
+#iframe {
+padding: 20px 20px 50px 50px;
+background-color: #ff0033;
+ }
+#polaroid {
+background-color: #009933;
+padding: 50px;
+ }
+#slide { }
+
 #poker {
 display: block;
 width: 250px;
-margin: 10px;
-background-color: #fff;
+margin-top: 30px;
+margin-left: 75px;
+margin-bottom: 75px;
+background-color: #ffffff;
 padding: 5px;
 border: 1px solid #ccc;
 box-shadow: 5px 5px 5px #828282;
-transform: rotate(5deg);
+transform: rotate(-5deg);
 } 
 
 
