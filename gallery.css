@@ -1,0 +1,46 @@
+body {
+    background-color: #333;
+    color: #043AF4;
+    font-family: 'Jockey One', sans-serif;
+}
+#gallery {
+    position: relative;
+}
+figure {
+    position: absolute;
+    left: 780px;
+    text-align: center;
+    opacity: 1;
+}
+#gallery ul {
+    width: 30px;
+    list-style-type: none;
+}
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 5px;
+    margin: 10px;
+}
+#gallery img {
+    border: none;
+}
+#gallery a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-style: italic;
+}
+#gallery span {
+    position: absolute;
+    right: 1300px;
+    opacity: 0;
+    transition: opacity .3s, right 0s;
+    transition-timing-function: linear;
+}
+#gallery a:hover span {
+    position: absolute;
+    top: 16px;
+    right: 150px;
+    text-align: center;
+    opacity: 1;
+}
