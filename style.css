@@ -14,7 +14,7 @@ div#background-img {
     background-size: cover;
     z-index: 1;
 }
-div#polaroid{
+div#polaroid {
     position: absolute;
     height: 200px;
     width: 200px;
@@ -61,15 +61,15 @@ h1 {
     margin-right: -1em;
     text-shadow: 1px 1px 3.1em #000;
 }
-div.download{
+div.download {
     margin-top: 1em;
     font-size: 1.4em;
 }
-section.gallery{
+section.gallery {
     margin-top: 2em;
     letter-spacing: .06em
 }
-h3.gallery a{
+h3.gallery a {
     font-size: 2em;
     color: #fff;
     position: relative;
@@ -89,7 +89,6 @@ main {
     margin-top: 1em;
     margin-bottom: 6em;
 }
-
 div.float-right {
     height: auto;
     margin-top: -1.333em;
@@ -130,14 +129,6 @@ main,
 }
 #song {
     font-size: 2em;
-}
-#wrapper a {
-    color: #;
-    text-decoration: none;
-}
-#wrapper a:visited {
-    color: #fff;
-    text-decoration: none;
 }
 #wrapper a:hover {
     color: #043AF4;
