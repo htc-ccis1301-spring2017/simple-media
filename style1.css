@@ -1,27 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-}
-
-main {
-    padding: 5px;
-    margin: 5px;
+    background-color: #333333;
+    color: #eaeaea;
 }
 
 footer {
-    padding: 15px 5px;
     font-size: 0.8em;
     color: #666666;
-}
-figure {
-    float: right;
-    width: 250px;
-    border: 1px solid #000000;
-    padding: 10px;
-    transform: rotate(3deg);
-}
-
-figcaption {
-    text-align: center;
+    
 }
 nav a:hover{
     color: green;
