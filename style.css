@@ -118,6 +118,9 @@ footer a:visited {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.65);
 }
+iframe {
+    border: none;
+}
 header,
 iframe,
 h1,
