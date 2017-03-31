@@ -1,13 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+div#background-img {
+    height: 60%;
+    width: 60%;
+    right: -23%;
+    bottom: 62%;
+    position: absolute;
+    background-image: url(pic/ncs%20circle%20blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+div#polaroid {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: #000;
+    border: 1px solid #fff;
+    border-bottom: 30px solid #fff;
+    box-shadow: 2px 2px 50px #043AF4;
+    transform: rotate(10deg);
+    bottom: 0px;
+    left: -200px;
+    z-index: -20000000000;
+}
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-bottom: 4em;
+    height: 100%;
+}
+html,
 body {
-    font-family: Arial, sans-serif;
+    height: 100%;
+    background: #000;
+    color: #fff;
 }
-
+.header {
+    text-align: center;
+    position: relative;
+    top: -1em;
+}
+body {
+    font-family: 'Jockey One', sans-serif;
+    height: 100%;
+    font-size: 15px;
+}
+h1 {
+    font-size: 2.8em;
+    color: #043AF4;
+    background: rgba(30, 30, 30, 1);
+    padding: .5em;
+    padding-left: 1em;
+    margin-left: -1em;
+    margin-right: -1em;
+    text-shadow: 1px 1px 3.1em #000;
+}
+div.download {
+    margin-top: 1em;
+    font-size: 1.4em;
+}
+section.gallery {
+    margin-top: 2em;
+    letter-spacing: .06em
+}
+h3.gallery a {
+    font-size: 2em;
+    color: #fff;
+    position: relative;
+    transition: color .07s, font-size .07s;
+}
+.gallery a:hover {
+    font-size: 2.15em;
+    color: #043AF4;
+}
+header {
+    padding: 1em;
+    position: relative;
+    margin-bottom: 3em;
+}
 main {
-    padding: 5px;
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: 6em;
+}
+div.float-right {
+    height: auto;
+    margin-top: -1.333em;
+    text-align: left;
+    width: 30%;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.4em;
+    text-align: center;
+}
+div.float-right:first-child {
+    margin-right: 5%;
+}
+footer {
+    padding: 1em .333em;
+    font-size: 1.0em;
+    color: #555555;
+    background: rgba(45, 45, 45, 1);
+    width: 100%;
+    height: auto;
+    min-height: 6em;
+    text-align: center;
+    bottom: 0;
+    z-index: 1;
+}
+footer a:visited {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.65);
+}
+iframe {
+    border: none;
+}
+header,
+iframe,
+h1,
+h1,
+h3,
+main,
+#wrapper {
+    z-index: 200;
+}
+#song {
+    font-size: 2em;
+}
+#wrapper a:hover {
+    color: #043AF4;
+    text-decoration: none;
 }
 
-footer {
-    padding: 15px 5px;
-    font-size: 0.8em;
-    color: #666666;
+/*----------------------------------------------*/
+
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+main a {
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.65);
+    text-decoration: none;
+}
+main a {
+    transition: font-size .05s, color .07s, font-weight .07s;
+}
+main a:hover {
+    font-size: 1.15em;
+    color: #043AF4;
+}
+.transition-footer a {
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.65);
+    text-decoration: none;
+}
+.transition-footer a {
+    transition: font-size .05s, color .07s, font-weight .07s;
+}
+.transition-footer a:hover {
+    font-size: 1.15em;
+    color: #043AF4;
+    font-weight: bolder;
+}
+
+/*----------------Social Media-------------------*/
+
+.social-media a {
+    transition: font-size .1s, color .1s;
+    transition-timing-function: linear;
+}
+a.red-link:hover {
+    color: red;
+    font-size: 1.5em;
+}
+a.yellow-link:hover {
+    color: yellow;
+    font-size: 1.5em;
+}
+a.orange-link:hover {
+    color: orangered;
+    font-size: 1.5em;
+}
+a.lime-link:hover {
+    color: lime;
+    font-size: 1.5em;
+}
+a.white-link:hover {
+    color: #fff;
+    font-size: 1.5em;
+}
+a.git-link:hover {
+    font-size: 1.5em;
 }

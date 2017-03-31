@@ -1,0 +1,78 @@
+body {
+    background-color: #333;
+    color: #043AF4;
+    font-family: 'Jockey One', sans-serif;
+}
+#gallery {
+    position: relative;
+}
+figure {
+    position: absolute;
+    left: 780px;
+    text-align: center;
+    opacity: 1;
+}
+#gallery ul {
+    width: 30px;
+    list-style-type: none;
+}
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 5px;
+    margin: 10px;
+}
+#gallery img {
+    border: none;
+}
+#gallery a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-style: italic;
+}
+#gallery span {
+    position: absolute;
+    right: 1300px;
+    opacity: 0;
+    transition: opacity .3s, right 0s;
+    transition-timing-function: linear;
+}
+#gallery a:hover span {
+    position: absolute;
+    top: 16px;
+    right: 150px;
+    text-align: center;
+    opacity: 1;
+}
+div.home {
+    text-align: center;
+    height: 75px;
+    width: 75px;
+    border-radius: 200px;
+    border: 3px solid #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: black;
+}
+a.home:link {
+    color: inherit;
+    font-size: 1.7em;
+    vertical-align: middle;
+    transition: font-size .07s, color .07s;
+    transition-timing-function: ease;
+}
+a.home:visited {
+    color: #043AF4;
+}
+a.home:hover {
+    color: #fff;
+    font-size: 2em;
+}
+.home p {
+    margin-bottom: 15px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 2px;
+}
