@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+	<title>Simple Media Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://use.fontawesome.com/42267a6f58.js"></script>
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+	</script>
+	<![endif]-->
+</head>
+
+<body>
+
+	<header>
+		<h1>Simple Media Page</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>
+				<h3><a href="#video">Video</a></h3></li>
+			<li>
+				<h3><a href="#iframe">iframe video</a></h3></li>
+			<li>
+				<h3><a href="#polaroid">Polaroid style picture</a></h3></li>
+			<li>
+				<h3><a href="#gallery">Gallery of photos</a></h3></li>
+		</ul>
+
+	</nav>
+	<main>
+		<div id="video">
+			<h2>Video Clip</h2>
+
+			<video controls="controls">
+				<source src="waving.m4v" type="video/mp4">
+				<source src="waving.ogv" type="video/ogg">
+				<embed type="application/x-shockwave-flash" src="waving.swf" quality="high" width="250" height="300" title="Moe waving">
+				<a href="waving.ogv">Moe waving</a> (.ogv)
+			</video>
+		</div>
+		<section id="iframe">
+			<h2>iFrame video</h2>
+			<iframe src="https://www.youtube.com/embed/L7g_8i57gu8" width="350" height="300" title="Carusso by Pavarotti">
+				<a href="https://www.youtube.com/embed/L7g_8i57gu8"></a>
+			</iframe>
+			<p>Carusso by Pavarotti</p>
+		</section>
+		<article id="polaroid">
+			<h2>Picture that looks like a Polaroid</h2>
+			<figure id="poker">
+				<a href="polaroid.JPG"><img src="polaroid.JPG" width="250" height="300" alt="Rocky's poker face"></a>
+				<figcaption>Rocky's poker face.</figcaption>
+			</figure>
+
+		</article>
+
+		<div id="gallery">
+			<h2>Image Gallery</h2>
+			<figure>
+				<img src="photo1.JPG" width="400" height="400" alt="Moe">
+			</figure>
+			<ul>
+				<li>
+					<a href="photo1.JPG"><img src="photo1.JPG" height="100" width="100" alt="Moe2017"><span><img src="photo1.JPG" width="400" height="400" alt="Moe2017"><br>Moe2017</span></a>
+				</li>
+				<li>
+					<a href="photo2.JPG"><img src="photo2.JPG" height="100" width="100" alt="Moe2012"><span><img src="photo2.JPG" width="400" height="400" alt="Moe2012"><br>Moe2012</span></a>
+				</li>
+				<li>
+					<a href="photo3.JPG"><img src="photo3.JPG" height="100" width="100" alt="Moe2006"><span><img src="photo3.JPG" width="400" height="400" alt="Moe2006"><br>Moe2006</span></a>
+				</li>
+			</ul>
+		</div>
+
+
+
+	</main>
+
+	<footer>
+		<a class="gap" href="https://github.com/MVWalters"><i class="fa fa-github fa-3x" aria-hidden="true"></i>  Github Profile</a>
+		<a class="gap" href="https://www.linkedin.com/"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>     Linkedin Profile</a>
+		<p>Contact Email:<a href="mailto:Maurice@Walters.com"> Maurice@Walters.com</a>
+			<br> Copyright &copy; 2017 Maurice Walters. All Rights Reserved
+			<br>
+
+	</footer>
+
+
+</body>
+
+</html>
