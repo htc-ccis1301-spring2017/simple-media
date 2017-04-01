@@ -1,5 +1,34 @@
+@font-face {
+    font-family: 'Macondo';
+    src: url('Macondo-Regular.ttf') format('truetype'); 
+}
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Macondo', cursive;
+    background-color: #ffffe6;
+    background-repeat: no-repeat;
+    color: #cc0066;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: normal;   
+}
+header {
+    text-align: center;
+    background-color: #ccffe6;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    height: auto;
+}
+#wrapper {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    height: auto;
+    box-shadow: 5px 5px 5px #FDFDF0;
+    background-color: #FFFFFD;
 }
 
 main {
@@ -10,4 +39,73 @@ footer {
     padding: 15px 5px;
     font-size: 0.8em;
     color: #666666;
+    background-color: #ccffe6;
+    text-align: center;
+}
+.float {
+    float: right;
+    text-align: left;
+}
+video {
+    width: 100%; 
+    height: auto;
+    max-width: 480px;
+}
+div.polaroid {
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+figure {  
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 5px 5px 5px #828282;
+    transform: rotate(3deg);
+}
+figcaption { 
+    text-align: center;
+    font-size: .8em;
+    font-style: italic;
+}
+nav {
+    letter-spacing:0.1em;
+    font-weight: bold;
+} 
+
+nav ul { 
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+nav li { 
+    border-bottom: 1px solid #ffffff;
+}
+nav a { 
+    text-decoration: none; 
+    display: block;
+    padding: 15px;
+        
+}
+nav a:link { 
+    color: #cc3300; 
+}
+nav a:visited { 
+    color: #ff6600; 
+}
+nav a:hover {  
+    color: #3399ff;
+    background-color: #eaeaea; 
+    font-size: 20px; transition: font-size 2s linear;
+}
+i {
+    padding: 15px;
 }
