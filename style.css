@@ -1,13 +1,120 @@
 body {
-    font-family: Arial, sans-serif;
+    background-color: rgba(179, 220, 237, 1);
+    background-image: linear-gradient(to bottom, aqua, white);
+    color: #131313;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    box-shadow: 20px 20px 15px #00FA9A;
+}
+
+#wrapper {
+    min-width: 600px;
+    max-width: 1280px;
+    color: #000066;
+    background-color: #a0a739;
+    width: 80%;
+    margin: auto;
 }
 
 main {
-    padding: 5px;
+    width: 80%;
+    margin: 100px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
 }
 
-footer {
-    padding: 15px 5px;
-    font-size: 0.8em;
-    color: #666666;
+h1 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #00ffff;
+    background-position: center;
+    background-repeat: repeat-x;
+    height: 48px;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding: 20px;
+    margin-left: 190px;
+}
+
+article {
+    background-image: none;
+    font-size: 100%;
+    padding-left: 0;
+    height: auto;
+}
+
+
+
+figure {
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 5px 5px 5px #828282;
+    transform: rotate(2deg);
+}
+figcaption {
+    text-align: center;
+    font-size: .8em;
+    font-style: italic;
+}
+video,
+embed {
+    float: right;
+    padding-left: 20px;
+}
+#gallery {
+    height: 200px;
+    position: relative;
+}
+#gallery ul {
+    list-style-type: none;
+    width: 300px;
+}
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#gallery img {
+    float: none;
+    border-style: none;
+}
+#gallery a {
+    text-decoration: none;
+    font-style: italic;
+    color: #333333;
+}
+#gallery span {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+#gallery a:hover span {
+    position: absolute;
+    top: 16px;
+    left: 320px;
+    text-align: center;
+    opacity: 1;
+}
+figure {
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 5px 5px 5px #828282;
+    transform: rotate(2deg);
 }
