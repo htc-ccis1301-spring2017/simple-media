@@ -1,9 +1,18 @@
+html {
+    background-image: radial-gradient(#666666, #adabab);
+    background-repeat: no-repeat;
+}
+
 body {
     font-family: Arial, sans-serif;
+    
 }
 
 main {
     padding: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 footer {
@@ -11,3 +20,55 @@ footer {
     font-size: 0.8em;
     color: #666666;
 }
+
+
+#figure{
+    
+    margin: 100px;
+    background-color: #FFFFFF;
+    padding: 5px; border: 1px solid #CCC;
+    box-shadow: 5px 5px 5px 5px #000000;
+    transform: rotate(3deg);
+}
+
+#gallery {
+    position: relative;  
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 100px;
+
+}
+
+nav a:hover{
+    
+}
+
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#gotvideo {
+    
+
+}
+
+
+#footer {
+    list-style-type: none;
+    font-size: 1.2em;
+    text-align: center;
+    display: inline;
+}
+
+#footer a {
+    display: inline-block;
+}
+
+
+
